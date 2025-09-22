@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+    --fonte01:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    --fonte02:"Savate", sans-serif;
+    --fonte03:"Alegreya", serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}

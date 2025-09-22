@@ -1,17 +1,6 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
-:root {
-    --fonte01:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    --fonte02:"Savate", sans-serif;
-    --fonte03:"Alegreya", serif;
-}
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 body {
-    min-width: 300px;
+    min-height: 100vh;
     font-family:var(--fonte01);
     text-align: justify;
     
@@ -39,12 +28,13 @@ main {
 main > a {
     text-decoration: none;
     color: rgba(230, 8, 8, 0.714);
-    
+    display: inline;
 }
 main > a:hover {
     background-color: rgb(198, 141, 164);
     color: white;
     text-decoration: underline;
+    border-radius: 10px;
 }
 main > aside,a::before {
     content: '🔗';
@@ -58,34 +48,53 @@ section > h3 {
     font-family: var(--fonte03);
     padding: 5px;
 }
+span a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(230, 8, 8, 0.714);
+    display: inline-block;
+    text-indent: 10px;
+}
+span a:hover {
+    background-color: rgb(198, 141, 164);
+    color: white;
+    text-decoration: underline;
+    border-radius: 10px;
+}
 aside a {
     text-decoration: none;
     color: rgba(230, 8, 8, 0.714);
+    display: inline-block;
+    text-indent: 10px;
 }
 aside a:hover {
     background-color: rgb(198, 141, 164);
     color: white;
      text-decoration: underline;
+     border-radius: 10px;
 }
 .normal {
     padding: 20px;
     text-shadow: 2px 1px 0px black;
     color: white;
+    margin-top: 30px;
 }
 .imagem {
+    
     padding: 20px;
     text-shadow: 2px 1px 0px black;
     display: inline-block;
-    
+    margin-top: 50px;
 }
 section#img01 {
-    background-color: black;
+background:black, url(imagens/tartaruga.jpg) center center fixed;
     box-shadow: inset 6px 6px 16px black;
-    background-image: url(imagens/tartaruga.jpg);
     background-position: center center;
     background-size: cover;
     color: white;
     background-attachment: fixed;
+    display: inline-block;
+    
 }
 section#img02 {
     background-color: black;
@@ -95,7 +104,7 @@ section#img02 {
     background-attachment: fixed;
     box-shadow: inset 6px 6px 16px rgba(0, 0, 0, 0.542);
     color: white;
-
+    display: inline-block;
 }
 section#img03 {
     background-color: black;
@@ -105,6 +114,7 @@ section#img03 {
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 16px rgba(0, 0, 0, 0.542);
+    display: inline-block;
 }
 #img04 {
     background-color: black;
@@ -120,6 +130,7 @@ footer > a {
     color: rgb(31, 31, 223);
     font-weight: bold;
     padding: 2px;
+    display: inline-block;
 }
 footer > a:hover {
     background-color: blue;
