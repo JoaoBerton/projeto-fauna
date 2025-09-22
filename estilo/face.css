@@ -61,17 +61,12 @@ section.imagem {
     text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.742);
 }
 section#img01 {
-    background-image: url(imagens/tartaruga.jpg);
-    background-position: center center;
+    background:black, url(imagens/tartaruga.jpg) center center fixed;
     background-size: cover;
-    background-attachment: fixed;
     box-shadow:inset 6px 6px 16px rgba(0, 0, 0, 0.516);
 }
 section#img02 {
-    background-image: url(imagens/papagaios.jpg);
-    background-position: center center;
-    background-size: 100vw;
-    background-attachment: fixed;
+    background:black, url(imagens/papagaios.jpg) center center fixed;
     box-shadow:inset 6px 6px 16px rgba(0, 0, 0, 0.516);
 }
 section#img03 {
