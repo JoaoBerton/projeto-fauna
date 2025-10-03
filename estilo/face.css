@@ -11,6 +11,7 @@
     padding: 0px;
 }
 body {
+    min-width: 300px;
     height: 100vh;
     font-family:var(--fonte01);
     text-align: justify;
